@@ -524,6 +524,9 @@ body {
     max-width: 90%;
     text-align: center;
   }
+  .footer{
+    margin-left: 15px;
+  }
 }
 
 /* Marquee container */
@@ -570,6 +573,9 @@ body {
 @media (max-width: 480px) {
   .marquee span {
     font-size: 0.9rem;
+  }
+  .marquee-container{
+    margin-left: 10px;
   }
 }
 

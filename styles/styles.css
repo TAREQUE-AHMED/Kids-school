@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
   line-height: 1.6;
 }
 
@@ -15,7 +14,9 @@ body {
   box-shadow: 0 4px 8px rgba(100, 100, 100, 0.2);
   position: relative;
 }
-
+.title{
+  font-size: 4rem;
+}
 .navbar .logo {
   display: flex;
   align-items: center;
@@ -103,9 +104,7 @@ body {
     display: flex;
   }
 
-  /* .navbar .toggle:checked + .links {
-    display: flex;
-  } */
+ 
 }
 
 /* Banner */
@@ -179,16 +178,17 @@ body {
   padding: 3rem 1rem;
   background-color: #fff;
   padding: 50px;
-   background: url('../assets/bg.png'); /* Replace with the actual image path */
-    background-size: cover; /* Ensures the image covers the entire section */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+   background: url('../assets/bg.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     text-align: center;
   text-align: center;
 }
 
 .curriculum h2 {
   margin-bottom: 2rem;
+  font-size: 2.5rem;
 }
 
 .curriculum .cards {
@@ -237,14 +237,13 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
- /* Container for the circles */
+ 
     .circle-container {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 20px; /* Space between the circles */
-      /* height: 100vh; */
-      /* background-color:#f4a641; */
+      gap: 20px; 
+     
     }
 
     /* Styling the circle */
@@ -295,9 +294,11 @@ body {
   }
   
     .curriculum {
-        background-size: contain; /* Alternative: contain scales image proportionally */
-        /* background-attachment: scroll; 
-        padding: 30px; */
+        background-size: contain; 
+        
+    }
+    .curriculum > h2{
+      font-size: 2rem;
     }
 
 .circle-container{
@@ -310,8 +311,8 @@ body {
   padding: 3rem 1rem;
   background: linear-gradient(to bottom, #fffbf2, #ffe7d6);
   text-align: center;
-  background: url('../assets/bg.png'); /* Replace with the actual image path */
-    background-size: cover; /* Ensures the image covers the entire section */
+  background: url('../assets/bg.png'); 
+    background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
     text-align: center;
@@ -320,6 +321,7 @@ body {
 
 .stories h2 {
   margin-bottom: 2rem;
+  font-size: 3rem;
 }
 
 .layout {
@@ -432,6 +434,9 @@ body {
   }
   .left {
     display: none;
+  }
+  .stories h2{
+    font-size: 2rem;
   }
 .stories{
   background: url('../assets/bg.png'); 
